@@ -47,3 +47,7 @@ var app = {
 };
 
 app.initialize();
+
+setTimeout(function () {
+  alert("Hi User!");
+}, 6 * 1000);
